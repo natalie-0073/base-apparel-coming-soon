@@ -10,7 +10,7 @@ export default function Component(){
         if(name.indexOf('@')<1){
             return(<small>Please provide a valid email</small>);
         }
-        console.log(name);
+        alert(`Thank you, ${name}, we will get in touch ASAP!`);
     }
     return(
         <div className="Component">
