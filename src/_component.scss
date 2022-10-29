@@ -22,7 +22,7 @@
 }
 nav{
     position: fixed;
-    padding: 40px 100px;
+    padding: 40px 190px;
 }
 .main-content{
     height: 100%;
@@ -71,11 +71,19 @@ nav{
         }
     }
     color: $desaturated-red;
-    padding: 100px ;
+    padding: 190px ;
     display: flex;
     flex-direction: column;
     justify-content: center;
    
+}
+@media(max-width:1000px){
+    nav{
+        padding: 40px;
+    }
+    .main-content__text{
+        padding: 40px;
+    }
 }
 @media(max-width:800px){
     
@@ -88,7 +96,7 @@ nav{
         }
     }
     nav{
-        padding: 30px;
+        padding: 20px;
     }
 }
 @media(max-width:600px){
